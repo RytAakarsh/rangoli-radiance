@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "dr.rangoli" },
+      { name: "description", content: "Best Derma Skin , Hair Doctor" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "dr.rangoli" },
+      { property: "og:description", content: "Best Derma Skin , Hair Doctor" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "dr.rangoli" },
+      { name: "twitter:description", content: "Best Derma Skin , Hair Doctor" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ab24a6f3-b4a9-4251-9928-578c61a590c8/id-preview-084f999c--69e9f08d-9ab5-4771-90e7-a7ca1954150a.lovable.app-1778405274165.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ab24a6f3-b4a9-4251-9928-578c61a590c8/id-preview-084f999c--69e9f08d-9ab5-4771-90e7-a7ca1954150a.lovable.app-1778405274165.png" },
     ],
     links: [
       {
