@@ -1,4 +1,4 @@
-import { Instagram, Youtube, Play } from "lucide-react";
+import { Instagram, Play } from "lucide-react";
 import { CLINIC } from "./constants";
 import beforeAfter from "@/assets/before-after.jpg";
 import hero from "@/assets/hero-model.jpg";
