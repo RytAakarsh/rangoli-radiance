@@ -11,10 +11,12 @@ const reels = [
   { img: hero, label: "Laser Treatment" },
 ];
 
-const videos = [
-  { id: "dQw4w9WgXcQ", title: "Skincare myths busted by a Dermatologist" },
-  { id: "kJQP7kiw5Fk", title: "How Laser Hair Reduction actually works" },
-];
+// const videos = [
+//   { id: "dQw4w9WgXcQ", title: "Skincare myths busted by a Dermatologist" },
+//   { id: "kJQP7kiw5Fk", title: "How Laser Hair Reduction actually works" },
+// ];
+
+const videos: Array<{ id: string; title: string }> = [];
 
 export function Social() {
   return (
@@ -63,7 +65,7 @@ export function Social() {
         </div>
 
         {/* YouTube */}
-        <div className="mt-24 flex flex-wrap items-end justify-between gap-4">
+        {/* <div className="mt-24 flex flex-wrap items-end justify-between gap-4">
           <div>
             <div className="text-xs tracking-[0.3em] uppercase text-primary mb-3">From our YouTube</div>
             <h2 className="text-4xl sm:text-5xl font-light text-brown">
@@ -98,7 +100,7 @@ export function Social() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
