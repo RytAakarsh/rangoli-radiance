@@ -11,14 +11,14 @@ const offers = [
 
 export function Offers() {
   return (
-    <section id="offers" className="py-24 sm:py-32 bg-gradient-soft relative overflow-hidden">
+    <section id="offers" className="py-16 sm:py-24 lg:py-32 bg-gradient-soft relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,oklch(0.88_0.09_80/0.25),transparent_60%)]" />
       <div className="container mx-auto px-4 relative">
         <div className="text-center max-w-2xl mx-auto">
           <div className="inline-flex items-center gap-2 rounded-full bg-gradient-rose px-4 py-1.5 text-xs uppercase tracking-[0.25em] text-primary-foreground shadow-luxe">
             <Sparkles className="h-3.5 w-3.5" /> Limited Time
           </div>
-          <h2 className="mt-5 text-4xl sm:text-5xl font-light text-brown">
+          <h2 className="mt-5 text-3xl sm:text-4xl lg:text-5xl font-light text-brown">
             Special <span className="italic text-gradient-rose">Offers</span> of the Month
           </h2>
           <p className="mt-5 text-muted-foreground">
