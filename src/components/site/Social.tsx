@@ -20,13 +20,13 @@ const videos: Array<{ id: string; title: string }> = [];
 
 export function Social() {
   return (
-    <section className="py-24 sm:py-32 relative">
+    <section className="py-16 sm:py-24 lg:py-32 relative">
       <div className="container mx-auto px-4">
         {/* Instagram */}
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <div className="text-xs tracking-[0.3em] uppercase text-primary mb-3">Latest from Instagram</div>
-            <h2 className="text-4xl sm:text-5xl font-light text-brown">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-brown">
               <span className="italic text-gradient-rose">@dr.rangoli_jirwankar</span>
             </h2>
           </div>
@@ -68,7 +68,7 @@ export function Social() {
         {/* <div className="mt-24 flex flex-wrap items-end justify-between gap-4">
           <div>
             <div className="text-xs tracking-[0.3em] uppercase text-primary mb-3">From our YouTube</div>
-            <h2 className="text-4xl sm:text-5xl font-light text-brown">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-brown">
               Skincare <span className="italic text-gradient-rose">Education</span>
             </h2>
           </div>

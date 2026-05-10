@@ -14,11 +14,11 @@ export function BeforeAfter() {
   };
 
   return (
-    <section id="results" className="py-24 sm:py-32 relative">
+    <section id="results" className="py-16 sm:py-24 lg:py-32 relative">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto">
           <div className="text-xs tracking-[0.3em] uppercase text-primary mb-3">Real Transformations</div>
-          <h2 className="text-4xl sm:text-5xl font-light text-brown">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-brown">
             Results that <span className="italic text-gradient-rose">speak louder</span>
           </h2>
           <p className="mt-5 text-muted-foreground">

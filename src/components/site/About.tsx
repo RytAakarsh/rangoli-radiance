@@ -12,23 +12,23 @@ const creds = [
 
 export function About() {
   return (
-    <section id="about" className="py-24 sm:py-32 relative">
+    <section id="about" className="py-16 sm:py-24 lg:py-32 relative overflow-x-clip">
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 sm:gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="relative"
+            className="relative max-w-sm sm:max-w-md mx-auto lg:max-w-none w-full"
           >
             <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-rose opacity-20 blur-2xl" />
             <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] shadow-luxe gold-border">
               <img src={doctor} alt={CLINIC.doctor} loading="lazy" className="h-full w-full object-cover" />
             </div>
-            <div className="absolute -bottom-6 -right-6 glass rounded-2xl p-5 shadow-luxe max-w-[200px]">
-              <div className="text-3xl font-display text-gradient-rose">10+</div>
-              <div className="text-xs text-muted-foreground">Years of dermatology excellence</div>
+            <div className="absolute -bottom-4 -right-2 sm:-bottom-6 sm:-right-6 glass rounded-2xl p-4 sm:p-5 shadow-luxe max-w-[170px] sm:max-w-[200px]">
+              <div className="text-2xl sm:text-3xl font-display text-gradient-rose">10+</div>
+              <div className="text-[11px] sm:text-xs text-muted-foreground">Years of dermatology excellence</div>
             </div>
           </motion.div>
 
@@ -38,8 +38,8 @@ export function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <div className="text-xs tracking-[0.3em] uppercase text-primary mb-4">Meet your specialist</div>
-            <h2 className="text-4xl sm:text-5xl font-light text-brown leading-tight">
+            <div className="text-xs tracking-[0.3em] uppercase text-primary mb-4 text-center lg:text-left">Meet your specialist</div>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-brown leading-tight text-center lg:text-left">
               {CLINIC.doctor}
               <span className="block text-base mt-3 font-sans tracking-widest uppercase text-muted-foreground">
                 Dermatologist · Cosmetologist · Laser Surgeon

@@ -12,11 +12,11 @@ const items = [
 
 export function WhyUs() {
   return (
-    <section className="py-24 sm:py-32 relative">
+    <section className="py-16 sm:py-24 lg:py-32 relative">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto">
           <div className="text-xs tracking-[0.3em] uppercase text-primary mb-3">Why Choose Us</div>
-          <h2 className="text-4xl sm:text-5xl font-light text-brown">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-brown">
             The <span className="italic text-gradient-rose">Dr. Rangoli</span> difference
           </h2>
         </div>

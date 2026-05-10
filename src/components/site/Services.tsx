@@ -29,14 +29,14 @@ export function Services() {
   const filtered = active === "All" ? services : services.filter((s) => s.cat === active);
 
   return (
-    <section id="services" className="py-24 sm:py-32 bg-gradient-soft relative overflow-hidden">
+    <section id="services" className="py-16 sm:py-24 lg:py-32 bg-gradient-soft relative overflow-hidden">
       <div className="absolute top-1/4 -left-24 h-72 w-72 rounded-full bg-rose/15 blur-3xl" />
       <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-gold/15 blur-3xl" />
 
       <div className="container mx-auto px-4 relative">
         <div className="text-center max-w-2xl mx-auto">
           <div className="text-xs tracking-[0.3em] uppercase text-primary mb-3">Signature Treatments</div>
-          <h2 className="text-4xl sm:text-5xl font-light text-brown">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-brown">
             Crafted for your <span className="italic text-gradient-rose">skin story</span>
           </h2>
           <p className="mt-5 text-muted-foreground">
