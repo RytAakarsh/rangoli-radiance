@@ -4,7 +4,7 @@ import { CLINIC } from "./constants";
 
 export function Footer() {
   return (
-    <footer className="bg-brown text-cream pt-20 pb-8 relative overflow-hidden">
+    <footer className="bg-brown text-cream pt-16 sm:pt-20 pb-24 lg:pb-8 relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,oklch(0.78_0.12_55/0.2),transparent_60%)]" />
       <div className="container mx-auto px-4 relative">
         <div className="grid lg:grid-cols-4 gap-10">
